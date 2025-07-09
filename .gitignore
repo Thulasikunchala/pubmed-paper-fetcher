@@ -1,0 +1,21 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore CSV output files
+*.csv
+
+# Ignore Poetry and build artifacts
+*.egg-info/
+dist/
+build/
+poetry.lock
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore virtual environments
+.venv/
+.env
+
